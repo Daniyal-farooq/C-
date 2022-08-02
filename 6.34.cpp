@@ -1,17 +1,15 @@
 #include<iostream>
-#include<math.h>
-#include<iomanip>
-#include<conio.h>
-using namespace std;
+using namespace std ;
 int main()
 {
-	int n = 1,i ;
-	for ( i = 2 ; i <= 9 ; i ++ )
+	int n , counter = 0;
+	
+	for ( n =1 ; n <= 40 ; n+=3 )
 	{
-		cout<<"\n"<<n ;
-		n = i + n ;
+		counter +=1 ;
+		if (counter%2== 0 )
+		cout<<-n<<" ";
+		else
+		cout<<n<<" ";
 	}
-		
-	
-	
 }

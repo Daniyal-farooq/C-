@@ -1,11 +1,10 @@
-#include<iostream>
-#include<iomanip>
-using namespace std ;
+#
+using namespacestd;
 int main()
 {
-	char ch ;
-	cout<<"Enter a character : " ;
-	cin>>ch ;
-	cout<<"The ASCII code of your entered alphabet is : "<<int(ch) ;
-	return 0 ;
+	int arr [10,20,30,40,50,60,70,80,90,100]
+	int i,n,c=-1
+	c
+	
+	}
 }
